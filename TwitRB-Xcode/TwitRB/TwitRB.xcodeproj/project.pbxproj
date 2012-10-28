@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		69C44BFE163B601D00FCB5C6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C44BFD163B601D00FCB5C6 /* Cocoa.framework */; };
+		69C44C00163B601D00FCB5C6 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C44BFF163B601D00FCB5C6 /* MacRuby.framework */; };
+		69C44C0B163B601D00FCB5C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C44C0A163B601D00FCB5C6 /* main.m */; };
+		69C44C28163B60C000FCB5C6 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 69C44C27163B60C000FCB5C6 /* rb_main.rb */; };
+		69C44C2B163B60CD00FCB5C6 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 69C44C29163B60CD00FCB5C6 /* MainMenu.nib */; };
+		69C44C2E163B60E100FCB5C6 /* TRTableDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 69C44C2C163B60E100FCB5C6 /* TRTableDelegate.rb */; };
+		69C44C2F163B60E100FCB5C6 /* TwitRbDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 69C44C2D163B60E100FCB5C6 /* TwitRbDelegate.rb */; };
+		69C44C31163B614400FCB5C6 /* GrackleWrapper.rb in Resources */ = {isa = PBXBuildFile; fileRef = 69C44C30163B614400FCB5C6 /* GrackleWrapper.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		69C44C02163B601D00FCB5C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 69C44BF0163B601D00FCB5C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 69C44BF8163B601D00FCB5C6;
+			remoteInfo = TwitRB;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69C44BF9163B601D00FCB5C6 /* TwitRB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitRB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		69C44BFD163B601D00FCB5C6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		69C44BFF163B601D00FCB5C6 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		69C44C06163B601D00FCB5C6 /* TwitRB-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwitRB-Info.plist"; sourceTree = "<group>"; };
+		69C44C0A163B601D00FCB5C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		69C44C0C163B601D00FCB5C6 /* TwitRB-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwitRB-Prefix.pch"; sourceTree = "<group>"; };
+		69C44C27163B60C000FCB5C6 /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = rb_main.rb; path = ../../../TwitRB/rb_main.rb; sourceTree = "<group>"; };
+		69C44C2A163B60CD00FCB5C6 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = ../../../TwitRB/English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		69C44C2C163B60E100FCB5C6 /* TRTableDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = TRTableDelegate.rb; path = ../../../TwitRB/TRTableDelegate.rb; sourceTree = "<group>"; };
+		69C44C2D163B60E100FCB5C6 /* TwitRbDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; name = TwitRbDelegate.rb; path = ../../../TwitRB/TwitRbDelegate.rb; sourceTree = "<group>"; };
+		69C44C30163B614400FCB5C6 /* GrackleWrapper.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = GrackleWrapper.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		69C44BF6163B601D00FCB5C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C44BFE163B601D00FCB5C6 /* Cocoa.framework in Frameworks */,
+				69C44C00163B601D00FCB5C6 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		69C44BEE163B601D00FCB5C6 = {
+			isa = PBXGroup;
+			children = (
+				69C44C04163B601D00FCB5C6 /* TwitRB */,
+				69C44BFC163B601D00FCB5C6 /* Frameworks */,
+				69C44C11163B601E00FCB5C6 /* Other Sources */,
+				69C44BFA163B601D00FCB5C6 /* Products */,
+				69C44C0D163B601E00FCB5C6 /* Resources */,
+				69C44C05163B601D00FCB5C6 /* Supporting Files */,
+			);
+			sourceTree = "<group>";
+		};
+		69C44BFA163B601D00FCB5C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				69C44BF9163B601D00FCB5C6 /* TwitRB.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		69C44BFC163B601D00FCB5C6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69C44BFD163B601D00FCB5C6 /* Cocoa.framework */,
+				69C44BFF163B601D00FCB5C6 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		69C44C04163B601D00FCB5C6 /* TwitRB */ = {
+			isa = PBXGroup;
+			children = (
+				69C44C30163B614400FCB5C6 /* GrackleWrapper.rb */,
+				69C44C2C163B60E100FCB5C6 /* TRTableDelegate.rb */,
+				69C44C2D163B60E100FCB5C6 /* TwitRbDelegate.rb */,
+			);
+			path = TwitRB;
+			sourceTree = "<group>";
+		};
+		69C44C05163B601D00FCB5C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				69C44C0A163B601D00FCB5C6 /* main.m */,
+				69C44C06163B601D00FCB5C6 /* TwitRB-Info.plist */,
+				69C44C0C163B601D00FCB5C6 /* TwitRB-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = TwitRB;
+			sourceTree = "<group>";
+		};
+		69C44C0D163B601E00FCB5C6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				69C44C29163B60CD00FCB5C6 /* MainMenu.nib */,
+			);
+			name = Resources;
+			path = TwitRB;
+			sourceTree = "<group>";
+		};
+		69C44C11163B601E00FCB5C6 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				69C44C27163B60C000FCB5C6 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			path = TwitRB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		69C44C01163B601D00FCB5C6 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 69C44C1B163B601E00FCB5C6 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				69C44C03163B601D00FCB5C6 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		69C44BF8163B601D00FCB5C6 /* TwitRB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 69C44C18163B601E00FCB5C6 /* Build configuration list for PBXNativeTarget "TwitRB" */;
+			buildPhases = (
+				69C44BF5163B601D00FCB5C6 /* Sources */,
+				69C44BF6163B601D00FCB5C6 /* Frameworks */,
+				69C44BF7163B601D00FCB5C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwitRB;
+			productName = TwitRB;
+			productReference = 69C44BF9163B601D00FCB5C6 /* TwitRB.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		69C44BF0163B601D00FCB5C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 69C44BF3163B601D00FCB5C6 /* Build configuration list for PBXProject "TwitRB" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				English,
+			);
+			mainGroup = 69C44BEE163B601D00FCB5C6;
+			productRefGroup = 69C44BFA163B601D00FCB5C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				69C44BF8163B601D00FCB5C6 /* TwitRB */,
+				69C44C01163B601D00FCB5C6 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69C44BF7163B601D00FCB5C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C44C28163B60C000FCB5C6 /* rb_main.rb in Resources */,
+				69C44C2B163B60CD00FCB5C6 /* MainMenu.nib in Resources */,
+				69C44C2E163B60E100FCB5C6 /* TRTableDelegate.rb in Resources */,
+				69C44C2F163B60E100FCB5C6 /* TwitRbDelegate.rb in Resources */,
+				69C44C31163B614400FCB5C6 /* GrackleWrapper.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69C44BF5163B601D00FCB5C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C44C0B163B601D00FCB5C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		69C44C03163B601D00FCB5C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 69C44BF8163B601D00FCB5C6 /* TwitRB */;
+			targetProxy = 69C44C02163B601D00FCB5C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		69C44C29163B60CD00FCB5C6 /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				69C44C2A163B60CD00FCB5C6 /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		69C44C16163B601E00FCB5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		69C44C17163B601E00FCB5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = /Library/Frameworks;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		69C44C19163B601E00FCB5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitRB/TwitRB-Prefix.pch";
+				INFOPLIST_FILE = "TwitRB/TwitRB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		69C44C1A163B601E00FCB5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwitRB/TwitRB-Prefix.pch";
+				INFOPLIST_FILE = "TwitRB/TwitRB-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		69C44C1C163B601E00FCB5C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		69C44C1D163B601E00FCB5C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		69C44BF3163B601D00FCB5C6 /* Build configuration list for PBXProject "TwitRB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C44C16163B601E00FCB5C6 /* Debug */,
+				69C44C17163B601E00FCB5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C44C18163B601E00FCB5C6 /* Build configuration list for PBXNativeTarget "TwitRB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C44C19163B601E00FCB5C6 /* Debug */,
+				69C44C1A163B601E00FCB5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		69C44C1B163B601E00FCB5C6 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				69C44C1C163B601E00FCB5C6 /* Debug */,
+				69C44C1D163B601E00FCB5C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 69C44BF0163B601D00FCB5C6 /* Project object */;
+}

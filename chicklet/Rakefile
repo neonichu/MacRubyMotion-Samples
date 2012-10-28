@@ -1,0 +1,18 @@
+$:.unshift("/Library/RubyMotion/lib")
+require 'motion/project'
+
+require 'rubygems'
+require 'bubble-wrap'
+require 'motion-cocoapods'
+require 'teacup'
+
+Motion::Project::App.setup do |app|
+  app.name = 'chicklet'
+  app.interface_orientations = [:portrait]
+  app.icons = %w{Icon-72.png Icon-72@2x.png Icon-Small-50.png Icon-Small-50@2x.png
+    Icon-Small.png Icon-Small@2x.png Icon.png Icon@2x.png}
+
+  app.pods do
+    pod 'Reachability'
+  end
+end
